@@ -1,0 +1,39 @@
+{
+  "name": "top-dropdownmenus",
+  "version": "1.0.0",
+  "description": "Build cool, customizable, dropdown menus!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "code dist | code src | webpack --watch",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtavares21/TOP-DropDownMenus.git"
+  },
+  "keywords": [
+    "menus",
+    "dropdown",
+    "navbar"
+  ],
+  "author": "Miguel Tavares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtavares21/TOP-DropDownMenus/issues"
+  },
+  "homepage": "https://github.com/mtavares21/TOP-DropDownMenus#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "2.2.1",
+    "source-map-loader": "^2.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
