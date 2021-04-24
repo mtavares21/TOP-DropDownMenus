@@ -29,7 +29,7 @@ HTML
                     <li class='dropItem'>Downloads</li>
                 </ul>
             </div>
-            <div class='dropContain'>
+             <div class='dropContain'>
                 <li class='dropTrigger' aria-haspopup="true">About</li>
                 <ul class='dropList' aria-label="submenu">
                     <li class='dropItem'>Projects</li>
@@ -38,7 +38,7 @@ HTML
                     <li class='dropItem'>Downloads</li>
                 </ul>
             </div>
- <div class='dropContain'>
+            <div class='dropContain'>
                 <li class='dropTrigger' aria-haspopup="true">Contacts</li>
                 <ul class='dropList' aria-label="submenu">
                     <li class='dropItem'>Projects</li>
