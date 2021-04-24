@@ -1,12 +1,12 @@
 {
-  "name": "top-dropdownmenus",
-  "version": "1.0.0",
-  "description": "Build cool, customizable, dropdown menus!",
-  "main": "index.js",
+  "name": "rango-dropdownmenu",
+  "version": "rango-dropdownmenu",
+  "description": "Save time color picking and formating width Rango!",
+  "main": "src/index.js",
+  "bin": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "code dist | code src | webpack --watch",
-    "watch": "webpack --watch"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,15 @@
     "navbar"
   ],
   "author": "Miguel Tavares",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mtavares21/TOP-DropDownMenus/issues"
   },
   "homepage": "https://github.com/mtavares21/TOP-DropDownMenus#readme",
   "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",
     "eslint": "^7.24.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -32,7 +35,7 @@
     "prettier": "2.2.1",
     "source-map-loader": "^2.0.1",
     "style-loader": "^2.0.0",
-    "webpack": "^5.32.0",
+    "webpack": "^5.35.1",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
   }

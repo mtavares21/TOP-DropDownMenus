@@ -1,14 +1,13 @@
-const path = require("path");
+const path = require('path');
 
 module.exports = {
-  mode: 'development',
   entry: './src/index.js',
   devtool: 'inline-source-map',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
- module: {
+  module: {
     rules: [
       {
         test: /\.css$/i,
@@ -20,20 +19,19 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        enforce: "pre",
-        use: ["source-map-loader"],
-      }
+        enforce: 'pre',
+        use: ['source-map-loader'],
+      },
     ],
   },
   watchOptions: {
-  aggregateTimeout: 600,
-  ignored: /node_modules/,
+    aggregateTimeout: 600,
+    ignored: /node_modules/,
   },
-  devtool: 'inline-source-map',
   devServer: {
-      contentBase: path.join(__dirname, 'dist'),
-      compress: true,
-      port: 9000,
-      publicPath: '/dist/index'
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000,
+    publicPath: '/dist/index',
   },
 };

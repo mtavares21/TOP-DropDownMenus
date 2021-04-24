@@ -1,50 +1,132 @@
-.title{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: rgb(64, 152, 224);
-}
-
-.dropContainer{
+body{
 display: flex;
 flex-wrap: wrap;
-width:100px;
-align-content: space-around;
-}
-
-.dropTrigger{
-appearance: none;
-margin: 0px;
-border: none;
-background-color: rgb(175, 180, 184);
-font-size: 16px;
-width: 80px;
-text-align: start ;
-padding-left: 5px;
-color:rgb(54, 57, 59)
-}
-.dropNav{
+width: 100%;
+height:100px;
+justify-self: center;
+justify-content: center;
 background-color:white;
 }
+h1{
+display: flex;
+margin: 0px;
+margin-left: 30%;
+margin-right: 30%;
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+
+}
+.dropTrigger{
+list-style: none;
+appearance: none;
+background-color:none;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+width: fit-content;
+margin-left: 12px;
+margin-right: 12px;
+height: fit-content;
+text-align: center;
+vertical-align: center;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 0px;
+color:rgb(54, 57, 59);
+border-width: 1px;
+border-color: rgb(200, 200, 200);
+}
+nav {
+display: flex;
+background-color: none; 
+align-content: center;
+position: relative;
+margin-right: 50%;
+margin-left: 50%;
+}
+.dropNav{
+appearance: none;
+margin-block-start: 0px;
+margin-block-end: 0px;
+position: relative;
+display: flex;
+flex-wrap: nowrap;
+flex-direction:row;
+justify-content: space-around;
+align-content: center;
+align-self: center;
+align-items: flex-start;
+width: fit-content;
+height: 24px;
+padding-inline-start: 0px;
+list-style: none;
+border-style: solid;
+border-width: 1px;
+border-color: rgb(190, 189, 186);
+border-radius: 5px;
+box-shadow:0 1px 2px 0 rgba(34,36,38,.15);
+}
+.dropContain{
+display: flex;
+flex-direction: column;
+width: 100px;
+align-items: center;
+}
 .dropList{
-display: none;
-flex-wrap: wrap;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
 position: relative;
 margin: 0px;
+height: 0px;
 padding: 0px;
-padding-top: 5px;
-padding-bottom: 5px;
-width: 80px;
-height: fit-content;
+width: 103px;
+text-align: center;
 appearance: none;
 list-style: none;
-background-color: rgb(220, 225, 230);
-font-size: 15px;
-color: rgb(56, 55, 55);
-border-bottom-right-radius: 10%;
-border-bottom-left-radius: 10%;
-transition: 1s ease;
+background-color: rgb(220, 230, 230);
+font-size: 12px;
+font-family: 'Lato', sans-serif;
+color: rgb(60, 60, 60);
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+overflow: hidden;
+-webkit-transition:height 200ms ease-in;
+-moz-transition:height 200ms ease-in;
+-o-transition:height 200ms ease-in;
+transition:height 200ms ease-in;
+
+}
+.dropList:hover{
+display: flex;
+padding-top: 5px;
+padding-bottom: 5px;
+height: 60px;
+
+}
+.dropTrigger:hover{
+opacity: 0.5;
+color:rgb(4, 7, 9);
+}
+.dropTrigger:hover ~ .dropList{
+display: flex;
+padding-top: 5px;
+padding-bottom: 5px;
+height: 60px;
 }
 .dropList li{
 display: flex;
+justify-self: center;
+align-self: center;
+text-align: center;
+justify-content: start;
 padding-left: 5px;
 padding-bottom: 1px;
+text-align: center;
+width: 100%;
+}
+.dropList li:hover{
+opacity: 1;
+background-color: rgb(200, 200, 200);
+text-decoration: underline;
+align-self: center;
 }
