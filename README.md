@@ -1,14 +1,12 @@
-# "rango-dropdownmenu"
+# Rango Dropdown Menu"
 
 #### Another Odin Project challenge!
 
-Here you can acesse the source code and instructions for my first npm published module : "rango-dropdownmenu".
+Here you can access the source code and instructions for my first __npm__ published module : "rango-dropdownmenu".
 
-It's a simple dropdown menu with a nice feel, and the capacity of adapting colors to your background. 
+It's a simple dropdown menu with a nice feel, and the capacity of adapting colors to your background.
 
-That´s where the menu´s name comes from by the way, from the animated movie character, better than writing chameleon all the time rigth?)
-
-### Setup:
+### Setup
 
 Really simple. Just setup your html file like the example, respecting the classes names, and adjust to your project with setUp().
 
