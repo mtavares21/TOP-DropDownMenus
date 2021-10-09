@@ -18,7 +18,7 @@ In you project folder:
 ```
 npm install "rango-dropdownmenu"
 ```
-HTML 
+__your_file.html__
 ```html
 <nav role="navigation">
         <ul class='dropNav'>
@@ -52,6 +52,7 @@ HTML
         </ul>
     </nav>
 ```
+__your_file.js__
 ```javascript
 import 'rango-dropdownmenu'
 import setUp from 'rango-dropdownmenu'
