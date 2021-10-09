@@ -6,6 +6,10 @@ Here you can access the source code and instructions for my first __npm__ publis
 
 It's a simple dropdown menu with a nice feel, and the capacity of adapting colors to your background.
 
+## Live Preview
+
+https://mtavares21.github.io/TOP-DropDownMenus/
+
 ### Setup
 
 Really simple. Just setup your html file like the example, respecting the classes names, and adjust to your project with setUp().
