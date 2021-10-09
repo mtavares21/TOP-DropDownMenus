@@ -1,4 +1,4 @@
-# Rango Dropdown Menu"
+# Rango Dropdown Menu
 
 #### Another Odin Project challenge!
 
